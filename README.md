@@ -15,3 +15,5 @@ Here is an example of crontab, turning off LEDs on morning at 7h00 and turning t
 # turn LEDs off at 23:00
 0 23 * * * /root/leds-off.sh
 ```
+
+In order to keep `/root/leds-*` files after sysupgrade, add them to your `/etc/sysupgrade.conf` configuration file.
